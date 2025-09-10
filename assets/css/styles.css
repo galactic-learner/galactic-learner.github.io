@@ -1100,7 +1100,7 @@ html {
     justify-content: center;
     font-size: 3rem;
     color: white;
-    margin-left: 64px;
+
     /* margin-left: auto; */
 }
 
@@ -1116,6 +1116,7 @@ html {
 @media (max-width: 768px) {
 
     .current-project-image {
+        /* margin-left: 64px; */
         margin: auto;
     }
 
