@@ -1147,7 +1147,14 @@ html {
     align-items: center;
     justify-content: center;
 
-    transform: translateY(+00%);
+    /* transform: translateY(+00%); */
 
 }
+
 /* ================ CSS profile img END ================ */
+
+/* ================ CSS footer START ================ */
+.brand_note{
+    color: var(--text-secondary);
+}
+/* ================ CSS footer END ================ */
