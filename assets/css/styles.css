@@ -331,6 +331,8 @@ body {
     justify-content: center;
     font-size: 3rem;
     color: white;
+    /* margin-left: 64px; */
+    /* translate: translateX(-50%); */
 }
 
 .current-project-title {
@@ -1098,7 +1100,8 @@ html {
     justify-content: center;
     font-size: 3rem;
     color: white;
-    margin-left: 100px;
+    margin-left: 64px;
+    /* margin-left: auto; */
 }
 
 /* ================ CSS footer START ================ */
@@ -1107,3 +1110,16 @@ html {
 }
 
 /* ================ CSS footer END ================ */
+
+
+/* ================ CSS current project style START ================ */
+@media (max-width: 768px) {
+
+    .current-project-image {
+        margin: auto;
+    }
+
+    
+    
+}
+/* ================ CSS END ================ */
