@@ -331,7 +331,9 @@ body {
     justify-content: center;
     font-size: 3rem;
     color: white;
+    /* margin-left: auto; */
     /* margin-left: 64px; */
+    margin-left: 35%;
     /* translate: translateX(-50%); */
 }
 
@@ -410,7 +412,7 @@ body {
     font-size: 1.1rem;
 }
 
-.profile-placeholder {
+/* .profile-placeholder {
     width: 200px;
     height: 200px;
     background: linear-gradient(135deg, var(--accent-color), #005a9e);
@@ -420,8 +422,8 @@ body {
     justify-content: center;
     font-size: 4rem;
     color: white;
-    margin: 0 auto;
-}
+    margin: 0 auto; 
+}*/
 
 .timeline {
     position: relative;
@@ -1111,16 +1113,41 @@ html {
 
 /* ================ CSS footer END ================ */
 
+/* ================ CSS about me START ================ */
+.profile_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 10000;
+}
+/* ================ CSS about me END ================ */
+
 
 /* ================ CSS current project style START ================ */
 @media (max-width: 768px) {
 
     .current-project-image {
-        /* margin-left: 64px; */
         margin: auto;
     }
-
-    
-    
 }
-/* ================ CSS END ================ */
+/* ================ CSS current project style END ================ */
+
+/* ================ CSS profile img START ================ */
+.profile_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    z-index: 10000;
+    opacity: 1 !important;
+    /* visibility: visible; */
+
+}
+.about-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translateY(+00%);
+
+}
+/* ================ CSS profile img END ================ */
