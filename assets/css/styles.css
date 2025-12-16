@@ -1121,6 +1121,14 @@ html {
     /*border-radius: 50%;*/
     z-index: 1000;
 }
+
+.about-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translateY(+00%); */
+}
+
 /* ================ CSS about me END ================ */
 
 
@@ -1133,29 +1141,18 @@ html {
 }
 /* ================ CSS current project style END ================ */
 
-/* ================ CSS profile img START ================ */
-.profile_img{
-    width: 325px !important;
-    height: 325px !important;
-    /*border-radius: 50%;*/
-    z-index: 1000;
-    /*opacity: 1 !important;*/
-    /* visibility: visible; */
-
-}
-.about-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    /* transform: translateY(+00%); */
-
-}
-
-/* ================ CSS profile img END ================ */
-
 /* ================ CSS footer START ================ */
 .brand_note{
     color: var(--text-secondary);
 }
 /* ================ CSS footer END ================ */
+
+
+ /* ================ CSS extra class END ================ */
+/* .img-fluid{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+} */
+  /* ================ CSS extra class END ================ */
