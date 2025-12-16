@@ -1135,11 +1135,11 @@ html {
 
 /* ================ CSS profile img START ================ */
 .profile_img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    z-index: 10000;
-    opacity: 1 !important;
+    width: 325px;
+    height: 325px;
+    /*border-radius: 50%;*/
+    z-index: 1000;
+    /*opacity: 1 !important;*/
     /* visibility: visible; */
 
 }
