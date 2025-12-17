@@ -1159,3 +1159,10 @@ html {
     color: var(--text-secondary);
 }
 /* ================ CSS footer END ================ */
+
+.img-fluid {
+
+Max-width:100%;
+margin-left:auto;
+margin-right:auto;
+}
