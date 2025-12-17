@@ -1115,10 +1115,11 @@ html {
 
 /* ================ CSS about me START ================ */
 .profile_img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    z-index: 10000;
+    /*background-color: red;*/
+    width: 400px !important;
+    height: 400px !important;
+    /*border-radius: 50%;*/
+    z-index: 1000;
 }
 /* ================ CSS about me END ================ */
 
