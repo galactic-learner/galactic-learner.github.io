@@ -1135,11 +1135,10 @@ html {
 
 /* ================ CSS profile img START ================ */
 .profile_img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    z-index: 10000;
-    opacity: 1 !important;
+    width: 350px;
+    height: 350px;
+    /* border-radius: 50%; */
+    z-index: 1000;
     /* visibility: visible; */
 
 }
@@ -1161,7 +1160,6 @@ html {
 /* ================ CSS footer END ================ */
 
 .img-fluid {
-
 Max-width:100%;
 margin-left:auto;
 margin-right:auto;
