@@ -1115,11 +1115,13 @@ html {
 
 /* ================ CSS about me START ================ */
 .profile_img{
-    /*background-color: red;*/
+    
     width: 325px !important;
     height: 325px !important;
-    /*border-radius: 50%;*/
     z-index: 1000;
+
+    opacity: 1 !important;
+    transition: opacity 0.3s;
 }
 
 .about-image{
@@ -1138,6 +1140,11 @@ html {
     .current-project-image {
         margin: auto;
     }
+
+    #flex { display: flex; flex-direction: column; }
+
+    #div1 { order: 2 !important; }
+    #div2 { order: 1 !important; }
 }
 /* ================ CSS current project style END ================ */
 
@@ -1155,4 +1162,7 @@ html {
     margin-left: auto;
     margin-right: auto;
 } */
-  /* ================ CSS extra class END ================ */
+
+
+
+  /* ================ CSS extra class END ================ */}
